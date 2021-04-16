@@ -9,10 +9,3 @@ public class Operators {
         }
     }
 }
-/*
-4, 4<=4,5
-
-    1, 1<=4,2
-
-        *
- */
