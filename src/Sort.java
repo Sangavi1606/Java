@@ -3,6 +3,9 @@ public class Sort {
 
         ascendSort();
         descendSort();
+        stringSort();
+        charAscendSort();
+        charDescendSort();
     }
 
     public static void ascendSort() {
@@ -33,6 +36,48 @@ public class Sort {
                     set = arr[i];
                     arr[i] = arr[j];
                     arr[j] = set;
+                }
+            }
+        }
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+    }
+
+    public static void stringSort() {
+        String[] arr = {"hi anna", "hi bro", "hi sis", "hi buddy"};
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+    }
+
+    public static void charAscendSort() {
+        char[] arr = {'f', 'a', 'd', 'b'};
+        int set;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] > arr[j]) {
+                    set = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = (char) set;
+                }
+            }
+        }
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+        System.out.println();
+    }
+
+    public static void charDescendSort() {
+        char[] arr = {'f', 'a', 'd', 'b'};
+        int set;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] < arr[j]) {
+                    set = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = (char) set;
                 }
             }
         }
