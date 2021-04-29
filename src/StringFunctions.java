@@ -1,24 +1,23 @@
 public class StringFunctions {
     public static void main(String[] args) {
+        value();
 
 
-//        Scanner sc= new Scanner(System.in);
-//        System.out.println("Enter a String");
-//        String k1= sc.nextLine();
-//        System.out.println("Enter a String");
-//        String k2= sc.nextLine();
-//        System.out.println(conCat(k1,k2));
+    }
 
+    public static void value() {
+        String s1 = "This is my book";
+        char[] arr = s1.toCharArray();
 
-        String k1 = "     Hi everyone     ";
-        String k2 = "Hijio";
-//
-//        System.out.println(equalsTo(k1,k2));
-//        compareTo(k1, k2);
-//        replace(k1);
-//        System.out.println(isEmpty(k1));
-//        subString(k1,1,6);
-        trim(k1);
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 'i') {
+                arr[i] = 'o';
+            }
+        }
+        int a = 10;
+        s1 = s1.copyValueOf(arr);
+        System.out.println(s1);
+
     }
 
     public static String conCat(String s1, String s2) {
