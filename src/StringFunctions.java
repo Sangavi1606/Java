@@ -1,6 +1,14 @@
+import java.util.Scanner;
+
 public class StringFunctions {
     public static void main(String[] args) {
-        value();
+        // value();
+        Scanner sc = new Scanner(System.in);
+
+        String s = "masai";
+        // subString(s,2,4);
+        String s1 = "Sangavi";
+        String s2 = "Kabilesh";
 
 
     }
