@@ -70,7 +70,6 @@ public class May14_Assing {
                 sec_max = arr[i];
             }
         }
-
         System.out.println(sec_max);
     }
 

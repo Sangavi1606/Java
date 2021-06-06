@@ -170,18 +170,22 @@ public class Matrix {
 
     public static void google() {
         String str = "trending";
+        boolean isTrue = false;
 
         for (int i = 0; i < str.length(); i++) {
             String str1 = "";
             for (int j = i; j < str.length(); j++) {
                 str1 += str.charAt(j);
-                // System.out.println(str1);
+                System.out.println(str1);
                 if (str1.equals("den")) {
                     System.out.println("True");
+                    isTrue = true;
                     break;
                 }
-
             }
+        }
+        if (!isTrue) {
+            System.out.println("False");
         }
     }
 }

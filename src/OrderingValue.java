@@ -8,7 +8,7 @@ public class OrderingValue {
         //maxNumTimes();
         //uniqueValue();
         //maximalNum();
-        //arrayFind1();
+        arrayFind1();
         arrayFind2();
     }
 
