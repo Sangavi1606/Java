@@ -6,7 +6,7 @@ public class Matrix {
         //columnSum();
         //subMatrix();
         //diagonalMatrix();
-        humanReadDate();
+        //humanReadDate();
         //checking();
         //google();
     }
