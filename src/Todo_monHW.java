@@ -1,8 +1,10 @@
+import java.util.Scanner;
+
 public class Todo_monHW {
     public static void main(String[] args) {
-        printing();
+        //printing();
         printOddChar();
-        calendar();
+        //calendar();
     }
 
     public static void printing() {
@@ -14,7 +16,9 @@ public class Todo_monHW {
     }
 
     public static void printOddChar() {
-        String s1 = "sangavi";
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a string");
+        String s1 = sc.nextLine();
         for (int i = 0; i < s1.length(); i++) {
             if (i % 2 != 0) {
                 System.out.print(s1.charAt(i));

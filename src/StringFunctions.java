@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class StringFunctions {
     public static void main(String[] args) {
-        // value();
+         value();
         Scanner sc = new Scanner(System.in);
 
         String s = "masai";
